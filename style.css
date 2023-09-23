@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    @media (max: width 310px) {
+        heder{
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+}
+.character {
+    margin-bottom: 10px;
+  }
+body{
+    background-image: url(des.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    @media (max: width 610px) {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:  10px;
+    flex-wrap: wrap;
+
+}
+.btn-filtro{
+    text-align: center;
+    /*background: black;*/
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.btn-filtro h2{
+    color: #fff;
+}
+.btn-filter{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    color: green;
+    border: 1px solid rgb(19, 187, 117);
+    border-radius: 10px;
+    transition: all 400ms ease;
+}
+.btn-filter:hover{
+    background: green;
+    color: black;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    transition: all 400ms ease;
+    flex-basis: 280px;
+
+
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
+.card h2{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.card .container{
+    padding: 15px;
+    text-align: center;
+}
+.card_detalles{
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    transition: all 400ms ease;
+    flex-basis: 280px;
+}
+.card_detalles:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+.card_detalles img{
+    width: 100%;
+    height: 250px;
+    
+}
+.card_detalles h2{
+    text-align: center;
+}
+.card_detalles p{
+    text-align: center;
+}
+.card_detalles .container{
+    padding: 15px;
+    text-align: center;
+    
+}
+.buton{
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.buton:hover{
+    background: royalblue;
+    color: #fff;
+}
+.pagBtn{
+    text-align: center;
+    
+}
+.next, .prev, .primPag, .ultPag{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid rgb(65, 225, 92);
+    border-radius: 4px;
+    transition: all 400ms ease;
+
+}
+.next:hover{
+    background: green;
+    color: #fff;
+}
+
+.prev:hover{
+    background: green;
+    color: #fff;
+}
+.primPag:hover{
+    background: green;
+    color: #fff;
+}
+.ultPag:hover{
+    background: green;
+    color: #fff;
+}
+.futer{
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
